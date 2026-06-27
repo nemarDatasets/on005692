@@ -1,25 +1,31 @@
 {
-    "Acknowledgements": "We would like to thank Hans-Juergen Warmbold and Anne Katrin Baum for their technical support.",
-    "Authors": [
-        "Max-Philipp Stenner",
-        "Cindy Marquez Nossa",
-        "Tino Zaehle",
-        "Elena Azanon",
-        "Hans-Jochen Heinze",
-        "Matthias Deliano",
-        "Lars Buentjen"
-    ],
-    "BIDSVersion": "1.6",
-    "DatasetType": "raw",
-    "Funding": [
-        "M.-P.S. was supported by a VolkswagenStiftung Freigeist Fellowship project-ID 92977.",
-        "M.-P.S. and E.A. received funding from a Deutsche Forschungsgemeinschaft Sonderforschungsbereich SFB-1436 TPC03 project-ID 425899996."
-    ],
-    "HowToAcknowledge": "Stenner, Marquez Nossa, Zaehle, Azañon, Heinze, Deliano, and Büntjen, Prior Knowledge Changes Initial Sensory Processing in the Human Spinal Cord. Science Advances, accepted",
-    "License": "CC0",
-    "Name": "SpinalExpect_NonInvasive",
-    "EthicsApprovals": [
-        "Ethics Committee at the Medical Faculty at Otto-von-Guericke University Magdeburg, Germany"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005692.v1.0.0"
+  "Acknowledgements": "We would like to thank Hans-Juergen Warmbold and Anne Katrin Baum for their technical support.",
+  "Authors": [
+    "Max-Philipp Stenner",
+    "Cindy Marquez Nossa",
+    "Tino Zaehle",
+    "Elena Azanon",
+    "Hans-Jochen Heinze",
+    "Matthias Deliano",
+    "Lars Buentjen"
+  ],
+  "BIDSVersion": "1.6",
+  "DatasetType": "raw",
+  "Funding": [
+    "M.-P.S. was supported by a VolkswagenStiftung Freigeist Fellowship project-ID 92977.",
+    "M.-P.S. and E.A. received funding from a Deutsche Forschungsgemeinschaft Sonderforschungsbereich SFB-1436 TPC03 project-ID 425899996."
+  ],
+  "HowToAcknowledge": "Stenner, Marquez Nossa, Zaehle, Azañon, Heinze, Deliano, and Büntjen, Prior Knowledge Changes Initial Sensory Processing in the Human Spinal Cord. Science Advances, accepted",
+  "License": "CC0",
+  "Name": "SpinalExpect_NonInvasive",
+  "EthicsApprovals": [
+    "Ethics Committee at the Medical Faculty at Otto-von-Guericke University Magdeburg, Germany"
+  ],
+  "DatasetDOI": "10.82901/nemar.on005692",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005692.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
