@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005692",
+  "source": "openneuro",
+  "source_id": "ds005692",
+  "title": "SpinalExpect_NonInvasive",
+  "authors": {
+    "Max-Philipp Stenner": {},
+    "Cindy Marquez Nossa": {},
+    "Tino Zaehle": {},
+    "Elena Azanon": {},
+    "Hans-Jochen Heinze": {},
+    "Matthias Deliano": {},
+    "Lars Buentjen": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005692.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "M.-P.S. was supported by a VolkswagenStiftung Freigeist Fellowship project-ID 92977."
+    },
+    {
+      "funder_name": "M.-P.S. and E.A. received funding from a Deutsche Forschungsgemeinschaft Sonderforschungsbereich SFB-1436 TPC03 project-ID 425899996."
+    }
+  ],
+  "acknowledgements": "We would like to thank Hans-Juergen Warmbold and Anne Katrin Baum for their technical support."
+}
