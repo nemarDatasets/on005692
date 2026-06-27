@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "SpinalExpect_NonInvasive",
+  "description": "This dataset comprises non-invasive spinal cord recordings from 30 healthy young subjects performing an auditory-somatosensory expectation task at the level of the sixth cervical vertebra (C6). Participants received electric median nerve stimulations preceded by auditory cues at either fixed (1100 ms) or variable (100-2100 ms) intervals across alternating blocks, while counting rare double-stimulus trials. The study investigates whether temporal expectation modulates initial sensory processing in the human spinal cord using high-frequency electrophysiological recordings from three electrode rings positioned around the cervical spine.",
+  "methods_description": "Non-invasive spinal cord recordings were obtained using three rings of electrodes positioned around the neck at the level of the sixth cervical vertebra. Electrodes were arranged in caudal, middle, and cranial rings, with the middle ring connecting points above the spinous process of C6 and the thyroid cartilage, and the caudal and cranial rings positioned approximately 2 cm below and above the middle ring, respectively. Subjects received electric median nerve stimulations on the left wrist preceded by auditory cues. The experimental design alternated between blocks with fixed (1100 ms) and variable (100-2100 ms) cue-to-stimulus intervals. Each subject completed two days of testing (except sub-24), with counterbalanced block order across subjects.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,42 @@
     "Matthias Deliano": {},
     "Lars Buentjen": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005692.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "spinal cord"
     },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "temporal expectation"
+    },
+    {
+      "term": "expectation"
+    },
+    {
+      "term": "somatosensory processing"
+    },
+    {
+      "term": "median nerve stimulation"
+    },
+    {
+      "term": "high-frequency recordings"
+    },
+    {
+      "term": "auditory-somatosensory integration"
+    },
+    {
+      "term": "cervical spine"
+    },
+    {
+      "term": "non-invasive"
+    },
+    {
+      "term": "cervical vertebra"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005692",
       "identifier_type": "URL",
@@ -33,25 +65,32 @@
       "identifier": "10.18112/openneuro.ds005692",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005692.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "VolkswagenStiftung",
-      "award_number": "92977"
+      "award_number": "92977",
+      "award_title": "Freigeist Fellowship"
     },
     {
       "funder_name": "Deutsche Forschungsgemeinschaft",
-      "award_number": "425899996"
+      "award_number": "425899996",
+      "award_title": "Sonderforschungsbereich SFB-1436 TPC03"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "99.6 GB (178 files)"
   ],
   "formats": [
     ".eeg",
@@ -59,35 +98,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises non-invasive spinal cord recordings from 30 healthy young subjects performing an auditory-somatosensory expectation task. Participants received electric median nerve stimulations preceded by auditory cues with either fixed (1100 ms) or variable (100-2100 ms) inter-stimulus intervals across alternating blocks. The study investigates whether temporal expectation modulates initial sensory processing in the human spinal cord, with recordings obtained using a novel high-frequency electrode montage positioned in three rings around the cervical spine.",
-  "methods_description": "Non-invasive spinal cord recordings were obtained using electrodes arranged in three rings around the neck at the level of the sixth cervical vertebra. Subjects received electric median nerve stimulations on the left wrist preceded by auditory cues. The inter-stimulus interval was either constant (1100 ms) or randomly varied (100-2100 ms uniform distribution) across alternating blocks. Rare trials contained two median nerve stimuli in rapid succession (80 ms inter-stimulus interval). Most subjects completed two days of testing.",
-  "keywords": [
-    {
-      "term": "spinal cord"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "temporal expectation"
-    },
-    {
-      "term": "somatosensory processing"
-    },
-    {
-      "term": "median nerve stimulation"
-    },
-    {
-      "term": "non-invasive recording"
-    },
-    {
-      "term": "auditory cues"
-    },
-    {
-      "term": "cervical spine"
-    }
-  ],
-  "source_hash": "d3caaeaa2e70838fed6ace5556c63335aca9bf9e9ada6ddfb8b3136b3e316c39"
+  "source_hash": "bb65bace0b5f804be63c439df211ad95ea8054757cc891508305cd8f127cc12e"
 }
