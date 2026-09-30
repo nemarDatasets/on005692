@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "SpinalExpect_NonInvasive",
-  "description": "This dataset contains non-invasive electrophysiological recordings from the human spinal cord in 30 healthy young adults during a temporal expectation paradigm. Subjects received electric median nerve stimulation preceded by an auditory cue with either fixed or variable timing, allowing investigation of whether temporal expectation modulates initial sensory processing at the spinal level. Recordings used a specialized multi-ring electrode montage around the neck to capture spinal cord signals.",
-  "methods_description": "Electrodes were arranged in three rings (caudal, middle, cranial) around the neck, adapted from a prior spinal recording montage. Each trial consisted of an auditory cue followed by median nerve stimulation at the left wrist, with the cue-stimulus interval either fixed (1100 ms) or randomly varied (100-2100 ms) across alternating blocks. Some trials included a second stimulus (80 ms ISI) to create deviant trials. Subjects completed two sessions (days) with block order counterbalanced.",
+  "description": "This dataset contains non-invasive electrophysiological recordings from the human cervical spinal cord in 30 healthy young adults, collected to test whether temporal expectation influences initial sensory processing in the spinal cord. Participants received electric median nerve stimulation at the left wrist after an auditory cue, with the cue-stimulus interval either fixed at 1100 ms or varied randomly between 100 and 2100 ms. Participants silently counted rare double-stimulus trials (80 ms ISI) and reported the count at the end of each block.",
+  "methods_description": "Electrodes were placed in three rings (caudal, middle, cranial) around the neck, adapted from Chander et al. (2022). Each trial consisted of an auditory cue followed by median nerve stimulation. Constant-interval and variable-interval blocks alternated, with the starting block type counterbalanced across subjects. Each subject except sub-24 completed two testing days.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,28 +17,29 @@
   },
   "keywords": [
     {
-      "term": "Spinal Cord",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
+      "term": "EEG"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "median nerve"
+      "term": "spinal cord"
     },
     {
       "term": "temporal expectation"
     },
     {
-      "term": "sensory processing"
+      "term": "median nerve stimulation"
     },
     {
-      "term": "Evoked Potentials",
+      "term": "somatosensory processing"
+    },
+    {
+      "term": "Median Nerve",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008475"
+    },
+    {
+      "term": "Spinal Cord",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
     }
   ],
   "related_identifiers": [
@@ -81,7 +82,7 @@
     "eeg"
   ],
   "sizes": [
-    "99.6 GB (178 files)"
+    "92.79 GB (178 files)"
   ],
   "formats": [
     ".eeg",
